@@ -1,7 +1,7 @@
 service: newproject
 frameworkVersion: '3'
 environment:
-      NAME: Lalchand
+      NAME: India
 provider:
   name: aws
   runtime: python3.8
