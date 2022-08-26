@@ -1,0 +1,10 @@
+service: newproject
+frameworkVersion: '3'
+environment:
+      NAME: Lalchand
+provider:
+  name: aws
+  runtime: python3.8
+  versionFunctions: false
+  memorySize: 128
+  region: us-east-1
