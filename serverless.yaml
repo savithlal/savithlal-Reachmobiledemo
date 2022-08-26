@@ -1,7 +1,7 @@
 service: newproject
 frameworkVersion: '3'
 environment:
-      NAME: TEJ
+      NAME: GAURAV
 provider:
   name: aws
   runtime: python3.8
