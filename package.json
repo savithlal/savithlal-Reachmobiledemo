@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "js-yaml": "^4.1.0"
-  }
+    "express": "^4.18.1",
+    "js-yaml": "^4.1.0",
+    "aws-sdk": "2.1203.0"
+  },
+  "name": "extract_artifact",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
