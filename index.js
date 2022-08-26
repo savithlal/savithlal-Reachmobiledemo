@@ -37,7 +37,7 @@ const handler = async (event, context) => {
 **/
 const showName = () => {
 	try {  
-		const doc = yaml.load(fs.readFileSync('/var/lib/jenkins/workspace/extract_artifact/serverless.yaml', 'utf8'));
+		const doc = yaml.load(fs.readFileSync('/var/lib/jenkins/workspace/Rebuilding_and_deploying/project_files/serverless.yaml', 'utf8'));
 		return "Hello " + doc.environment.NAME;}
 	catch (e) {
 		console.log(e);}
