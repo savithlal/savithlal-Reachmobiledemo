@@ -1,10 +1,18 @@
 service: newproject
 frameworkVersion: '3'
 environment:
-      NAME: SREENATH
+      NAME: SAVITH
+
 provider:
   name: aws
   runtime: python3.8
   versionFunctions: false
   memorySize: 128
   region: us-east-1
+Resources:
+  Properties:
+    CodeUri: "s3://rcm-developer-code/reachmobile/api_hello_world/1.1/code.zip"
+    Environment:
+      Variables:
+        USERNAME: developer
+        PASSWORD: qwerty
