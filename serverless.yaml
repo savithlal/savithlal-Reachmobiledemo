@@ -1,8 +1,5 @@
 service: newproject
 frameworkVersion: '3'
-environment:
-      NAME: SAVITH
-
 provider:
   name: aws
   runtime: python3.8
